@@ -8,6 +8,10 @@
         <servlet-name>GpsLocation</servlet-name>
         <servlet-class>bash.GpsLocation</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>GpsGet</servlet-name>
+        <servlet-class>bash.GpsGet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>GpsServlet</servlet-name>
         <url-pattern>/GpsServlet</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>GpsLocation</servlet-name>
         <url-pattern>/GpsLocation</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GpsGet</servlet-name>
+        <url-pattern>/GpsGet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
